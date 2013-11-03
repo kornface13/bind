@@ -1,0 +1,28 @@
+;
+; BIND reverse data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	kornface.com. root.kornface.com. (
+		      201311173		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	ns.kornface.com.
+1	IN	PTR	nxtns-1811-50.
+3	IN	PTR	nxtns-airportextreme-50
+13	IN	PTR	nxtns-king-50.
+15	IN	PTR	nxtns-qnap-50.
+16	IN	PTR	nxtns-unraid-50.
+20	IN	PTR	nxtns-esxi-50.
+77	IN	PTR	serverPI.
+88	IN	PTR	nxtns-printer-50.
+99	IN	PTR	PIcam.
+213	IN	PTR	megatron
+214	IN	PTR	ETSY-L495
+215	IN	PTR	ETSY-PCI
+250	IN	PTR	htpc-livingroom.
+251	IN	PTR	htpc-theater.
+252	IN	PTR	htpc-bedroom.
+
